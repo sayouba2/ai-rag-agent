@@ -38,8 +38,9 @@ venv/
 # Chroma vector database
 backend/chroma_db/
 
-# Uploaded documents
-backend/data/
+# Uploaded documents (garder le dossier, ignorer le contenu)
+backend/data/*
+!backend/data/.gitkeep
 
 # Node
 node_modules/

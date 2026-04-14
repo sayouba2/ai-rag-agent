@@ -4,11 +4,21 @@ python-dotenv
 pydantic
 
 langchain
+langchain-classic
 langchain-openai
 langchain-community
+langchain-chroma
 langchain-text-splitters
 
 chromadb
 pypdf
 python-multipart
 tiktoken
+
+# Formats supplémentaires
+docx2txt
+
+# Tests
+pytest
+pytest-asyncio
+httpx
